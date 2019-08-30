@@ -99,7 +99,7 @@ with graph.as_default():
 
     init = tf.global_variables_initializer()
 
-for x in range(0,1):
+for x in range(0,10):
 
     batch_size = 64
     iterations_list, mae_list = [], [] # For graphic plots

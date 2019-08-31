@@ -4,6 +4,7 @@ Algoritmos de Predição de Séries Temporais
 Este repositório contém a implementação de três algoritmos de predição de séries temporais na linguagem de programação Python, versão 3. São eles: Rede Neural Recorrente, Auto-Regressive Integrated Moving Average (ARIMA) e Support Vector Regression (SVR).
 
 A comparação dos algoritmos foi apresentada no seguinte artigo: 
+
 S. Oliveira, J. Kniess, R. Parpinelli e W. Castañeda, “Predição de Séries Temporais em Internet das Coisas com Redes Neurais Recorrentes”, In: 50o Simpósio Brasileiro de Pesquisa Operacional (SBPO), 2018. (OLIVEIRA et al., 2018).
 
 Link: http://proceedings.science/sbpo/papers/predicao-de-series-temporais-em-internet-das-coisas-com-redes-neurais-recorrentes?lang=pt-br.

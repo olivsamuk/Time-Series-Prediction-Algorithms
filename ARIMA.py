@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed May 17 22:06:39 2017
-
-@author: biank
-@reference: http://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
-"""
 
 from pandas import read_csv
 from pandas import datetime
@@ -30,15 +24,6 @@ def write_list(lista, path, title):
 
 path = sys.argv[1]
 beginTime = time.time()
-
-# ------ Call data from CSV File
-# bike_data = pd.read_csv(path)
-# # txt_data.sort_values(["date", "hour"], inplace=True)
-# bike_data.head()
-# X = bike_data[['target']].values
-
-# data_lenght = len(X)
-# print("data_lenght: ", data_lenght)
 
 # # ------ Call data from LIST File
 f = open(sys.argv[1], "r")
@@ -81,9 +66,6 @@ data.append(results)
 with open('resultsARIMA.json', 'w') as f:
   json.dump(data, f)
 
-
-# write_list(predictions, "arima_orig"+path[8:-7]+"pred.txt", "predictions")
-# write_list(test, "arima_orig"+path[8:-7]+"test.txt", "test")
 
 font = {'family' : 'Times New Roman'}
 pyplot.rc('font', **font)

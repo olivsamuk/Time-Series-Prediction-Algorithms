@@ -21,14 +21,6 @@ def write_list(lista, path, title):
 path = sys.argv[1]
 beginTime = time.time()
 
-# ------ Call data from CSV File
-# txt_data = pd.read_csv(path)
-# # txt_data.sort_values(["date", "hour"], inplace=True)
-# txt_data.head()
-# x = txt_data[['target']]
-
-# data_lenght = len(txt_data)
-# print("data_lenght: ", data_lenght)
 
 # ------ Call data from LIST File
 f = open(sys.argv[1], "r")

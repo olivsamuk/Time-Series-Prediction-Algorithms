@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu May 18 00:58:08 2017
-
-@author: biank
-"""
 
 from pandas import read_csv
 from pandas import datetime
@@ -30,15 +25,6 @@ def write_list(lista, path, title):
 
 path = sys.argv[1]
 begin = time.time()
-
-# ------ Call data from CSV File
-# bike_data = pd.read_csv(path)
-# # bike_data.sort_values(["dteday", "hr"], inplace=True)
-# bike_data.head()
-# X = bike_data[['target']].values
-
-# data_lenght = len(X)
-# print("data_lenght: ", data_lenght)
 
 # # ------ Call data from LIST File
 f = open(sys.argv[1], "r")
